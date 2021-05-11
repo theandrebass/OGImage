@@ -1,7 +1,7 @@
 # [Open Graph Image as a Service](https://ogimage.xyz)
 
 <a href="https://twitter.com/vercel">
-    <img align="right" src="https://github.com/theandrebass/OGImage/blob/main/public/tweet.png" height="300" />
+    <img align="right" src="https://github.com/theandrebass/OGImage/blob/main/tweet.png" height="300" />
 </a>
 
 Serverless service that generates dynamic Open Graph images that you can embed in your `<meta>` tags.
