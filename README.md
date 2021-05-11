@@ -1,9 +1,7 @@
-<a href="https://vercel.com/new/project?template=vercel/og-image"><img width="128" src="https://vercel.com/button" align="right"></a>
-
-# [Open Graph Image as a Service](https://og-image.vercel.app)
+# [Open Graph Image as a Service](https://ogimage.xyz)
 
 <a href="https://twitter.com/vercel">
-    <img align="right" src="https://og-image.vercel.app/tweet.png" height="300" />
+    <img align="right" src="https://github.com/theandrebass/OGImage/blob/main/public/tweet.png" height="300" />
 </a>
 
 Serverless service that generates dynamic Open Graph images that you can embed in your `<meta>` tags.
@@ -41,11 +39,12 @@ It looks like the following:
 ```html
 <head>
   <title>Hello World</title>
-  <meta property="og:image" content="https://og-image.vercel.app/Hello%20World.png" />
+  <meta property="og:image" content="https://ogimage.xyz/social-card.png" />
+  <meta name="twitter:image" content="https://ogimage.xyz/social-card.png"/>
 </head>
 ```
 
-Now try changing the text `Hello%20World` to the title of your choosing and watch the magic happen ✨
+Now try changing the text `social-card.png` to the title of your choosing and watch the magic happen ✨
 
 ## Deploy your own
 
@@ -54,15 +53,13 @@ You'll want to fork this repository and deploy your own image generator.
 1. Click the fork button at the top right of GitHub
 2. Clone the repo to your local machine with `git clone URL_OF_FORKED_REPO_HERE`
 3. Change directory with `cd og-image`
-4. Make changes by swapping out images, changing colors, etc (see [contributing](https://github.com/vercel/og-image/blob/main/CONTRIBUTING.md) for more info)
+4. Make changes by swapping out images, changing colors, etc (see [contributing](https://github.com/theandrebass/ogimage/blob/main/CONTRIBUTING.md) for more info)
 5. Remove all configuration inside `vercel.json` besides `rewrites`
 6. Run locally with `vercel dev` and visit [localhost:3000](http://localhost:3000)  (if nothing happens, run `npm install -g vercel`)
 7. Deploy to the cloud by running `vercel` and you'll get a unique URL
-8. Setup [GitHub](https://vercel.com/github) to auto-deploy on push
-
-Once you have an image generator that sparks joy, you can setup [automatic GitHub](https://vercel.com/github) deployments so that pushing to master will deploy to production! 🚀
 
 ## Authors
 
-- Steven ([@styfle](https://twitter.com/styfle)) - [Vercel](https://vercel.com)
-- Evil Rabbit ([@evilrabbit](https://twitter.com/evilrabbit_)) - [Vercel](https://vercel.com)
+- Steven ([@styfle](https://twitter.com/styfle))
+- Evil Rabbit ([@evilrabbit](https://twitter.com/evilrabbit_))
+- Andre ([@theandrebass](https://twitter.com/theandrebass))
