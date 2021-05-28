@@ -74,7 +74,6 @@ button {
     white-space: nowrap;
     text-decoration: none;
     line-height: 0;
-
     height: 24px;
     width: calc(100% + 2px);
     padding: 0 10px;
@@ -257,7 +256,6 @@ label {
     height: 60px;
     align-items: center;
     justify-content: space-between;
-    
     box-shadow: 0 4px 9px rgba(0,0,0,0.12);
     font-size: 14px;
     display: flex;
